@@ -26,4 +26,4 @@ def site_other_tools(request):
     return render(request, "nmap_site/site_othertools.html")
 
 def site_orchestration(request):
-    return render(request, "nmap_site/orchestration.html")
+    return render(request, "nmap_site/site_orchestration.html")
