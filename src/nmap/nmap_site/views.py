@@ -3,7 +3,7 @@ from django.http import HttpResponse, HttpRequest
 
 
 def site_index(request: HttpRequest):
-    return HttpResponse('nmap home')
+    return HttpResponse('nmap_site/site_index.html')
 
 def site_history(request: HttpResponse):
     return HttpResponse('nmap history')
