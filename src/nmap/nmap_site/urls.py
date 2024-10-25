@@ -11,17 +11,3 @@ urlpatterns = [
     path('others', views.site_other_tools, name='site_othertools'),
     path('orchestration', views.site_orchestration, name='site_orcherstration'),
 ]
-
-
-"""
-urls hrefs: 
-<baseurl> - home.html
-<baseurl>/nmap - site_index.html
-<baseurl>/nmap/history - site_history.html
-<baseurl>/nmap/details - site_details.html
-<baseurl>/nmap/tests - site_tests.html
-<baseurl>/nmap/results - site_results.html
-<baseurl>/nmap/others - site_othertools.html
-<baseurl>/nmap/orchestration - site_orchestration.html
-"""
-
