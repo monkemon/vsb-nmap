@@ -11,6 +11,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+ .active-page
+ {
+   color:#3dd5f3 !important;
+ }
 
 
 :root {
