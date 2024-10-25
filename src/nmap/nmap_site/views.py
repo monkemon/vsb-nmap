@@ -2,8 +2,10 @@ from django.shortcuts import render
 from django.http import HttpResponse, HttpRequest
 
 
-def site_index(request: HttpRequest):
-    return render(request, "nmap_site/site_index.html")
+def site_index(request):
+    template = 'nmap_site/site_index.html'
+    context = {}
+    return render(request, template, context)
 
 def site_history(request: HttpResponse):
     return render(request, "nmap_site/site_history.html")
