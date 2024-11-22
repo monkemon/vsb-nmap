@@ -1,6 +1,7 @@
 {% extends "../base/base.html" %}
 {% block title %}Nmap - History{%endblock%}
 {% block content %}
+<<<<<<< Updated upstream
     <!-- Header-->
 
 
@@ -15,53 +16,23 @@
 
     <!-- About section-->
     <section class="aboutSection" id="about">
+=======
+    <section id="history">
+>>>>>>> Stashed changes
         <div class="container px-6 w-100">
             <div class="row gx-4 justify-content-center w-100">
                 <div class="col-md-8 w-100">
-                    <h2>Popis</h2>
-                    <p>Nmap, neboli <b>Network MAPer</b>, je bezpečnostní skener portů vyvinutý <b>Gordonem Lyonem</b>. 
-                        Primárně se tento nástroj používá k hledání hostitelských počítačů a služeb na počítačové síti, čili k vytvoření 
-                        pomyslné "mapy" sítě. Aby Nmap mohl vykonávat tyto úkoly, odesílá na cílový počítač speciálně upravené pakety a 
-                        poté analyzuje odpovědi.</p>
-                        <br>
-                    <h4>Nmap umožňuje:</h4>
-                    <ul>
-                        <li>Zjištění otevřených portů na jednom nebo více počítačích.</li>
-                        <li>Identifikování služby běžící na těchto portech.</li>
-                        <li>Zjištění typu operačního systému běžícího na daném počítači (OS fingerprinting).</li>
-                        <li>Pomocí NSE (Nmap Scripting Engine), který byl představen ve verzi 4.50, je možné interaktivně komunikovat s cílovým systémem.</li>
-                    </ul>
+                    <h4><b>The Art of Port Scanning</b></h4>
+                    <p>
+                        V roce <b>1997</b> spatřil nástroj nmap světlo denní v magazínu Phrack.
+                        Jednalo se o jednoduchý program v jayzce C, který si uživatel přeložil
+                        pomocí GCC.
+                        Hlavní myšlenkou autora bylo vyzkoumat co nejvíce možných poslouchačů na co nejvíce otevřených portech.
+
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="aboutSection bg-light" id="about">
-        <div class="container px-6 w-100">
-            <div class="row gx-4 justify-content-center w-100">
-                <div class="col-md-8 w-100">
-                    <h2>Nmap v porovnání s jinými nástroji</h2>
-                    <p>Na rozdíl od jiných jednoduchých skenerů portů, které pouze odesílají pakety 
-                        v určité předdefinované časové periodě, Nmap počítá s různými stavy počítačové
-                        sítě (kolísání latence, zahlcením sítě, interference s cílovým strojem) 
-                        během skenování. Díky obrovské komunitě uživatelů a přispěvatelů se Nmap stal více než jenom 
-                        skenerem, který je schopen zjistit, zda je hostitelský počítač online či offline, a který zjistí, 
-                        jaké porty jsou otevřené a jaké zavřené. Nmap je schopen odhalit operační systém cílového počítače, 
-                        jména a verze služeb naslouchajících na portech, jak dlouho je cílový systém online, typy zařízení 
-                        nebo přítomnost firewallu případně jeho pravidla. Nmap byl původně vyvinut pro skenování velkých sítí a
-                        proto zvláště v tomto segmentu vyniká nad ostatními skenery.
-                        Nmap je dostupný pro operační systémy Linux, Solaris, HP-UX, BSD, Windows, Mac OS X, SGI IRIX a AmigaOS. 
-                        První verze byla vydána, spolu se zdrojovým kódem v září 1997 v magazínu Phrack.</p>
-                        <br>
-                    <h4>Využití:</h4>
-                    <ul>
-                        <li>Audit služeb a systémů v počítačových sítích.</li>
-                        <li>Správa sítě a síťových zdrojů.</li>
-                        <li>ZNástroj pro bezpečnostní audity a penetrační testování.</li>
-                        <li>Mapování sítí od malých až po korporátní rozlehlé sítě</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
 {%endblock%}
