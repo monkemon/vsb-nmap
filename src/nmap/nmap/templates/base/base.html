@@ -26,7 +26,7 @@
                         <li class="nav-item"><a class="nav-link {% if request.path == '/nmap/results' %}active-page{% endif %}" href="results">Výsledky</a></li>
                         <li class="nav-item"><a class="nav-link {% if request.path == '/nmap/others' %}active-page{% endif %}" href="others">Porovnání s jinými tooly</a></li>
                         <li class="nav-item"><a class="nav-link {% if request.path == '/nmap/orchestration' %}active-page{% endif %}" href="orchestration">Orchestration</a></li>
-                        <li class="nav-item"><a class="nav-link {% if request.path == '/nmap/history' %}active-page{% endif %}" href="history">Historie</a></li>
+                        {% comment %} <li class="nav-item"><a class="nav-link {% if request.path == '/nmap/history' %}active-page{% endif %}" href="history">Historie</a></li> {% endcomment %}
                     </ul>
                 </div>
             </div>
